@@ -2,7 +2,6 @@ import React from 'react'
 import { 
   FaGithub, 
   FaLinkedin, 
-  FaTwitter, 
   FaHeart, 
   FaCode,
   FaEnvelope,
@@ -98,15 +97,7 @@ export default function Footer() {
                 >
                   <FaLinkedin size={20} />
                 </a>
-                <a
-                  href=""
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-2.5 rounded-lg bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-700 hover:text-black dark:hover:text-white transition-all duration-300 hover:-translate-y-1"
-                  aria-label="Twitter"
-                >
-                  <FaTwitter size={20} />
-                </a>
+                
               </div>
             </div>
           </div>
@@ -119,7 +110,7 @@ export default function Footer() {
               </p>
               <p className="text-sm text-gray-600 dark:text-gray-400 flex items-center gap-1.5">
                 Made with
-                <FaHeart className="text-gray-700 dark:text-gray-300 animate-pulse" size={14} />
+                <FaHeart className="text-gray-700 dark:text-red-800 animate-pulse" size={14} />
                 and
                 <FaCode className="text-gray-700 dark:text-gray-300" size={14} />
                 by Komal

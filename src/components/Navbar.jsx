@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Menu, X, Sun, Moon } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaGithub, FaLinkedin} from 'react-icons/fa'
 import { useTheme } from '../context/ThemeContext.jsx'
 
 const NAV_LINKS = [
@@ -15,7 +15,6 @@ const NAV_LINKS = [
 const SOCIAL_LINKS = [
   { label: 'GitHub', href: 'https://github.com/komalkomal8602-debug', icon: FaGithub },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/ms-komal-2018963b1/', icon: FaLinkedin },
-  { label: 'Twitter', href: 'https://twitter.com/yourusername', icon: FaTwitter },
 ]
 
 function SocialIcons({ size }) {
