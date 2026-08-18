@@ -25,7 +25,7 @@ function SocialIcons({ size }) {
       target="_blank"
       rel="noopener noreferrer"
       aria-label={social.label}
-      className="rounded-full p-1.5 sm:p-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+      className="rounded-full p-1.5 sm:p-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-black dark:hover:text-white transition-colors"
     >
       <social.icon size={size} />
     </a>
@@ -72,15 +72,15 @@ export default function Navbar() {
         : 'bg-transparent'
     }`}>
       <nav className="mx-auto px-4 sm:px-6 lg:px-8 2xl:px-12">
-        <div className="flex h-16 sm:h-18 md:h-20 items-center justify-between max-w-7xl mx-auto 2xl:max-w-[1400px] 4k:max-w-[1800px]">
+        <div className="flex h-16 sm:h-18 md:h-20 items-center justify-between max-w-7xl mx-auto 2xl:max-w-[1400px]">
           
           {/* Logo */}
           <a 
             href="#home" 
             onClick={(e) => handleNavClick(e, '#home')}
-            className="text-xl sm:text-2xl md:text-3xl font-bold tracking-tight text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+            className="text-xl sm:text-2xl md:text-3xl font-bold tracking-tight text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
           >
-            <span className="text-blue-600 dark:text-blue-400">K</span>omal
+            <span className="text-black dark:text-white border-b-2 border-gray-900 dark:border-white">K</span>omal
           </a>
 
           {/* Desktop Navigation */}
@@ -90,7 +90,7 @@ export default function Navbar() {
                 <a 
                   href={link.href}
                   onClick={(e) => handleNavClick(e, link.href)}
-                  className="text-sm xl:text-base 2xl:text-lg font-medium text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                  className="text-sm xl:text-base 2xl:text-lg font-medium text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors"
                 >
                   {link.label}
                 </a>
@@ -109,7 +109,7 @@ export default function Navbar() {
             <button 
               onClick={toggleTheme} 
               aria-label="Toggle theme" 
-              className="rounded-full p-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+              className="rounded-full p-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-black dark:hover:text-white transition-colors"
             >
               {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
             </button>
@@ -118,7 +118,7 @@ export default function Navbar() {
             <button 
               onClick={() => setIsOpen(!isOpen)} 
               aria-label="Toggle menu" 
-              className="lg:hidden rounded-md p-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+              className="lg:hidden rounded-md p-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-black dark:hover:text-white transition-colors"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -136,7 +136,7 @@ export default function Navbar() {
                   <a
                     href={link.href}
                     onClick={(e) => handleNavClick(e, link.href)}
-                    className="block rounded-md px-4 py-3 text-base font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-900 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                    className="block rounded-md px-4 py-3 text-base font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-900 hover:text-black dark:hover:text-white transition-colors"
                   >
                     {link.label}
                   </a>
