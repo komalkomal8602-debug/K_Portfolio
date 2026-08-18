@@ -58,13 +58,13 @@ export default function Footer() {
                 <li className="flex items-center gap-3 text-sm text-gray-600 dark:text-gray-400">
                   <FaEnvelope className="text-gray-700 dark:text-gray-300 flex-shrink-0" size={16} />
                   <a href="mailto:your.email@example.com" className="hover:text-black dark:hover:text-white transition-colors">
-                    your.email@example.com
+                    komalkomal8602@gmail.com
                   </a>
                 </li>
                 <li className="flex items-center gap-3 text-sm text-gray-600 dark:text-gray-400">
                   <FaPhone className="text-gray-700 dark:text-gray-300 flex-shrink-0" size={16} />
                   <a href="tel:+919999999999" className="hover:text-black dark:hover:text-white transition-colors">
-                    +91 99999 99999
+                    +91 8307283449
                   </a>
                 </li>
                 <li className="flex items-center gap-3 text-sm text-gray-600 dark:text-gray-400">
@@ -81,7 +81,7 @@ export default function Footer() {
               </h4>
               <div className="flex gap-3">
                 <a
-                  href="https://github.com/yourusername"
+                  href="https://github.com/komalkomal8602-debug"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2.5 rounded-lg bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-700 hover:text-black dark:hover:text-white transition-all duration-300 hover:-translate-y-1"
@@ -90,7 +90,7 @@ export default function Footer() {
                   <FaGithub size={20} />
                 </a>
                 <a
-                  href="https://linkedin.com/in/yourusername"
+                  href="https://www.linkedin.com/in/ms-komal-2018963b1/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2.5 rounded-lg bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-700 hover:text-black dark:hover:text-white transition-all duration-300 hover:-translate-y-1"
@@ -99,7 +99,7 @@ export default function Footer() {
                   <FaLinkedin size={20} />
                 </a>
                 <a
-                  href="https://twitter.com/yourusername"
+                  href=""
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2.5 rounded-lg bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-700 hover:text-black dark:hover:text-white transition-all duration-300 hover:-translate-y-1"

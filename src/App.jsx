@@ -26,7 +26,6 @@ function App() {
           top: targetPosition,
           behavior: 'smooth'
         })
-        // Update URL without causing scroll
         window.history.pushState(null, null, href)
       }
     }
